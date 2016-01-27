@@ -1,0 +1,15 @@
+.box {float:left}
+#root {margin:0 auto}
+
+#userpage_cols,
+#userpage_gallery,
+#userpage_profile,
+#userpage_contact,
+#userpage_journals,
+#userpage_shouts,
+#userpage_stats{width:100%}
+#userpage_leftcol,
+#userpage_rightcol{min-width:50%;width:50%}
+
+.userpage_colleft {padding:0px 10px 0px 20px}
+.userpage_colright {padding:0px 20px 0px 10px}

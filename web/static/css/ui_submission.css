@@ -1,0 +1,27 @@
+/* Page Layout */
+    #submission_page .middle{position:relative}
+    #submission_page .middle:after{display:table;clear:both;content: ''}
+    #submission_page .container{width:100%;float:left;overflow:hidden;margin-right:-100%;
+        -webkit-box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow:0px 0px 55px 0px rgba(0, 0, 0, 0.8);
+        box-shadow:0px 0px 55px 0px rgba(0, 0, 0, 0.8)}
+    #submission_page .content{padding:0px}
+    #submission_page .right-sidebar{float:right;margin-right:-336px;width:336px;position:relative}
+
+    #submission_page .imgshad img{-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+                                  -moz-box-shadow:0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+                                   box-shadow:0px 0px 25px 0px rgba(0, 0, 0, 0.5)}
+
+
+/* Page Formatting */
+    #submission_page .subbutton{position:relative;padding:8px}
+    #submission_page .half{width:128px;display:inline-block}
+    #submission_page .halfmarginfix{width:100px}
+    #submission_page .full{width:284px;display:inline-block;margin:10px 0px 0px 18px}
+    #submission_page .p1{margin:10px 0px 0px 18px}
+    #submission_page .p2{margin:10px 0px 0px 8px}
+    #submission_page .p3{margin:10px 0px 0px 0px}
+    #submission_page .optionspace{padding:20px 20px 20px 20px}
+    #submission_page .subbutton a{position:absolute;height:100%;width:100%;top:0;left:0;text-decoration:none}
+    #submission_page .subbutton:hover{text-decoration:none}
+}

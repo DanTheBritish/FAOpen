@@ -1,0 +1,39 @@
+.box {float:left}
+.boxtab {float:left;display-table}
+.boxsub {float:left;display:table-cell;background: #eee;}
+#root {width:100%;margin:0 auto}
+
+#index_left_content{width:70%}
+#index_right_sidebar{width:30%}
+#index_sub{width:100%;display:table}
+#index_spotlight{width:33%}
+#index_events{width:34%}
+#index_other{width:33%}
+#index_ad_sidebar,
+#index_images,
+#index_news{width:100%}
+
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width:481px) and (max-width:1024px) and (orientation:landscape){
+	#index_ad_sidebar,#index_events,#index_images,#index_left_content,#index_news,#index_other,#index_right_sidebar,#index_spotlight,#index_sub
+	{width:100%}
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width:321px) and (max-width:1024px) and (orientation:portrait){
+	#index_ad_sidebar,#index_events,#index_images,#index_left_content,#index_news,#index_other,#index_right_sidebar,#index_spotlight,#index_sub
+	{width:100%}
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+	#index_ad_sidebar,#index_events,#index_images,#index_left_content,#index_news,#index_other,#index_right_sidebar,#index_spotlight,#index_sub
+	{width:100%}
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	#index_ad_sidebar,#index_events,#index_images,#index_left_content,#index_news,#index_other,#index_right_sidebar,#index_spotlight,#index_sub
+	{width:100%}
+}
+
